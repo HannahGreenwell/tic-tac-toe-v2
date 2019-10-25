@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.7rem;
+  margin: 2rem;
+}
