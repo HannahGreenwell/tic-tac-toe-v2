@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^6.8.1",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0"
+  }
+}
