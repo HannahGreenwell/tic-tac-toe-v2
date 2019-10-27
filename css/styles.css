@@ -5,7 +5,26 @@
 }
 
 body {
+  padding: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.7rem;
-  margin: 2rem;
+}
+
+header {
+  padding: 1rem 0 2rem;
+  text-align: center;
+}
+
+#game-board {
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cell {
+  border: solid 1px black;
 }

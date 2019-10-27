@@ -6,10 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tic-Tac-Toe</title>
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/main.js"></script>
+  <script src="js/game.js"></script>
 </head>
 <body>
-  <h1>Tic-Tac-Toe</h1>
-  <div class="game-board"></div>
+  <header>
+    <h1>Tic-Tac-Toe</h1>
+  </header>
+  <main>
+    <div id="game-board" data-testid="game-board-container">
+      <button class="cell" type="button" row="0" column="0" aria-label="Row 0; Column 0"></button>
+      <button class="cell" type="button" row="0" column="1" aria-label="Row 0; Column 1"></button>
+      <button class="cell" type="button" row="0" column="2" aria-label="Row 0; Column 2"></button>
+      <button class="cell" type="button" row="1" column="0" aria-label="Row 1; Column 0"></button>
+      <button class="cell" type="button" row="1" column="1" aria-label="Row 1; Column 1"></button>
+      <button class="cell" type="button" row="1" column="2" aria-label="Row 1; Column 2"></button>
+      <button class="cell" type="button" row="2" column="0" aria-label="Row 2; Column 0"></button>
+      <button class="cell" type="button" row="2" column="1" aria-label="Row 2; Column 1"></button>
+      <button class="cell" type="button" row="2" column="2" aria-label="Row 2; Column 1"></button>
+    </div>
+  </main>
 </body>
 </html>

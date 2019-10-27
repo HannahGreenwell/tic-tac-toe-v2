@@ -11,3 +11,6 @@ A chance to go back to my first ever GA project and improve on the work flow and
 - RDD/TDD
 - Work incrementally - start with MVP and add features later
 - Iterate - start with simple solutions and work up to better solutions
+
+### Things I Learnt Along The Way
+- CommonJS vs ES6 modules
