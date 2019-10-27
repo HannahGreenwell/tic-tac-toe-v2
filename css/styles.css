@@ -17,14 +17,17 @@ header {
 }
 
 #game-board {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
 }
 
 .cell {
   border: solid 1px black;
+  background-color: white;
 }
